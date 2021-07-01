@@ -16,6 +16,8 @@ public class Test_class extends Baase_Test
 	 
 	 String us = Excel.ExcelSheet(PATH,"Sheet1",1, 0);
 	 String pw = Excel.ExcelSheet(PATH,"Sheet1",2, 0);
+	String name= "Nikhil";
+	System.out.println("Name is"+name);
 	 p.loginclk();
 	 
 	 p.loginclick();
